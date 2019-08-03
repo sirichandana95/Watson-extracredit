@@ -11,7 +11,12 @@
            <p>Translation: {{ post.obj2}}</p>
            <p>Word Count: {{ post.w_count}} |
            Letter Count: {{ post.c_count}}</p>
-           <p> Tone Analyzer Results:  {{ post.tone3}}</p>
+           <p> <strong> <u>Tone Analyzer Name: </u>{{ post.ToneName1}} <br> </strong> </p>
+           <p> <strong> <u>Tone Analyzer Score: </u> {{ post.Score1}}</u> <br> </strong> </p>
+
+
+
+           	</p>
        </div>
    {% endfor %}
 {% endblock %}
